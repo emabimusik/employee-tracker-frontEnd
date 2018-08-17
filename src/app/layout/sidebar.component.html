@@ -1,0 +1,128 @@
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <!-- navbar-header -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Employee Tracker</a>
+    </div>
+    <!-- /.navbar-header -->
+
+    <!-- navbar-top-links -->
+    <ul class="nav navbar-top-links navbar-right">
+        <!-- dropdown envelope icon -->
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- dropdown-messages -->
+            <ul class="dropdown-menu dropdown-messages">
+                <li>
+                    <div class="text-center small">
+                        <strong>You have 4 tutorials</strong>
+                    </div>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="http://www.websky.dk/employee-tracker-angularjs-web-api-part-1" target="_blank">
+                        <div class="small">
+                            <strong>Part 1: </strong>
+                            <span class="text-info">
+                                Create a  .Net Core 2.1 Web API Application in C#
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="http://www.websky.dk/employee-tracker-angularjs-web-api-part-2" target="_blank">
+                        <div class="small">
+                            <strong>Part 2: </strong>
+                            <span class="text-info">
+                                Create Web API Services with .Net Core 2.1
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="http://www.websky.dk/employee-tracker-angularjs-web-api-part-3" target="_blank">
+                        <div class="small">
+                            <strong>Part 3: </strong>
+                            <span class="text-info">
+                                Create a SPA in Angular 6
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="http://www.websky.dk/employee-tracker-angularjs-web-api-part-4" target="_blank">
+                        <div class="small">
+                            <strong>Part 4: </strong>
+                            <span class="text-info">
+                                Create Features in Angular 6
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a class="text-center text-info small" href="http://www.websky.dk" target="_blank">
+                        <div class="text-info">
+                            <strong>See Other Tutorials</strong>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.dropdown-messages -->
+        </li>
+        <!-- /.dropdown envelope icon -->
+        <!-- dropdown user icon -->
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+            </a>
+            <!-- dropdown-user -->
+            <ul class="dropdown-menu dropdown-user">
+                <li>
+                    <a href="http://www.websky.dk/about-me" target="_blank">
+                        <div class="text-center small">
+                            <i class="fa fa-user fa-fw"></i> <span class="text-info"><strong>About Me</strong></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.dropdown-user -->
+        </li>
+        <!-- /.dropdown user icon -->
+    </ul>
+    <!-- /.navbar-top-links -->
+
+    <!-- navbar-static-side -->
+    <div class="navbar-default sidebar" role="navigation">
+        <!-- sidebar-collapse -->
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+                <li ui-sref-active="active">
+                    <a ui-sref="dashboard">
+                        <i class="fa fa-dashboard"></i>
+                        <span class="nav-label" routerLink="dashboard">Dashboard</span>
+                    </a>
+                </li>
+
+                <li ui-sref-active="active">
+                    <a ui-sref="employees">
+                        <i class="fa fa-table"></i>
+                        <span class="nav-label" routerLink="/employees">Employees</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+    </div>
+    <!-- /.navbar-static-side -->
+</nav>
